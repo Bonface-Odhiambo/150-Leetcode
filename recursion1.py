@@ -2,6 +2,6 @@
 def dfs(i, j):
     # ... some code ...
     dfs(i+1, j)  # Function calls itself with different parameters
-    dfs(i-1, j)
+    dfs(i-1, j)  # Function calls itself with different parameters
     dfs(i, j+1)
     dfs(i, j-1)

@@ -1,4 +1,4 @@
-def smaller_numbers_than_current(nums):
+def smaller_numbers_than_current(nums): # nums is the input array
     n= len(nums) # nums are the individual elements in the array
     result= [0]* n
 
